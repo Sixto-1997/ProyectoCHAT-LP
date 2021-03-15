@@ -1,0 +1,23 @@
+<section class="phx-hero">
+  <h1><%= gettext "Bienvenido a %{name}!", name: "Phoenix" %></h1>
+  <p>Ejemplo creado por SAMC</p>
+</section>
+
+
+<div id='message-list' class='row'>
+<ul id='msg-list'> </ul>
+</div>
+
+
+<div class='row form-group'>
+  <div class='col-md-3'>
+    <input type='text' id='name' class='form-control' placeholder='Ingrese nombre' style="border: 1px black solid; font-size: 1.3em;" autofocus />
+  </div>
+  
+  <div class='col-md-9'>
+    <input type='text' id='message' class='form-control' placeholder='Ingrese mensaje' style="border: 1px black solid; font-size: 1.3em;" autofocus />
+  </div>
+  
+</div>
+
+
